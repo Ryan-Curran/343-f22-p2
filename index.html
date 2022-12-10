@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ryan Curran">
+    <title>Today in Movies</title>
+    <style>
+        body {
+            background-color: gainsboro;
+        }
+        input {
+            width: 250px;
+            height: 25px;
+        }
+        .movie {
+            border: solid;
+            margin: 10px;
+            padding: 5px;
+        }
+        #header {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            margin-left: 10px;
+        }
+        #button1 {
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Today in Movies</h1>
+        <button id="button1">Rating 5 and above</button>
+        <button id="button2">Rating below 5</button>
+    </div>
+    
+    <form id="form">
+        <input type="text" name="" id="query">
+    </form>
+    <div id="results">
+    </div>
+    <script src="apis.js"></script>
+</body>
+</html>
